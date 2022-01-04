@@ -1,4 +1,4 @@
-* {
+* {* {
     padding: 0px;
     margin: 0px;
     font-family:Arial, Helvetica, sans-serif;
@@ -141,6 +141,83 @@ section#inicio div#botoes button#botao2 {
     height: 30px;
 }
 
-@media screen {
+/*-----------------------------------------------*/
+
+/*-- SEÇÃO SOBRE --*/
+section#sobre {
+
+    /*Estilos*/
+    background-color: black;
+
+    /*Posicionamento e tamanho*/
+    height: 600px;
+}
+/*Estilo e posicionamento das fotos*/
+
+section#sobre div#fotos {
+
+    /*Estilos*/
+    background-color: #22040e;
+    box-shadow: 70px 20px #10050a;
+    
+    /*Posicionamento e tamanho*/
+    position: relative;
+    left: 100px;
+    bottom: 120px;
+    width: 550px;
+    height: 300px;
+}
+/*Estilos e posicionamento individual das fotos*/
+section#sobre div#fotos #d {
+
+    /*Estilo*/
+
+    /*Posicionamento e tamanho*/
+    position: relative;
+    bottom: 100px;
+    left: 130px;
+    padding: 10px;
+}
+section#sobre div#fotos #j {
+
+    /*Estilos*/
+
+    /*Posicionamento e tamanho*/
+    position: relative;
+    padding: 10px;
+    left: 50px;
+    top: 15px;
+}
+section#sobre div#fotos #s {
+
+    /*Estilos*/
+
+    /*Posicionamento e tamanho*/
+    position: relative;
+    padding: 10px;
+    left: 390px;
+    bottom: 160px;
+}
+/*Estilos e posicionamento dos textos*/
+section#sobre div#texto2 {
+
+    position: relative;
+    width: 400px;
+    left: 750px;
+    top: 88px;
+}
+/*Estilo do titulo*/
+section#sobre div#texto2 div#titulo2 {
+    color: #FFF;
+    font-size: 20px;
+    width: 500px;
+}
+/*Estilo do paragrafo*/
+section#sobre div#texto2 div#paragrafo2 {
+    color: #737373;
+    position: relative;
+    top: 10px;
+    width: 400px;
+
 
 }
