@@ -1,0 +1,146 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*-- BARRA DE MENU --*/
+nav#menus ul {
+    
+    /*Estilos*/
+
+    /*Posicionamento e tamanho*/
+    position: relative;
+    bottom: 210px;
+    left: 910px;
+    height: 100%;
+    width: 300px;
+    
+/*Estilo geral dos links*/
+}nav#menus ul li {
+    
+    /*Estilos*/
+    list-style: none;
+    font-size: 13px;
+
+    /*Posicionamento e tamanho*/
+    position: relative;
+    top: 35%;
+    padding-left: 10px;
+    display: inline;
+        
+}nav#menus ul li a {
+    
+    /*Estilos*/
+    text-decoration: none;
+    color: #FFF;
+    margin-left: 20px;
+}
+/*- EFEITOS AO TOCAR -*/
+nav#menus ul li a:hover {
+    color: #BF0436;
+}
+/*- Posicionamento e estilo da LOGO -*/
+nav#menus div#logo img {
+
+    /*Posicionamento e tamanho*/
+    position: relative;
+    bottom: 70px;
+    left: 50px;
+    width: 250px;
+
+}
+/*-----------------------------------------------*/
+
+/*-- SEÇÃO DE INICIO --*/
+section#inicio {
+    
+    /*Estilo*/
+    background-color: black;
+    background-image: url('./img/fundoinicio.png');
+
+    /*Posicionamento e tamanho*/
+    width: 1349px;
+    height: 620px;
+}
+/*- Estilo e posicionamento dos TEXTOS -*/
+section#inicio div#texto1 {
+
+    /*Estilo*/
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FFF;
+    font-size: 20px;
+    
+    /*Posicionamento e tamanho*/
+    position: relative;
+    bottom: 80px;
+    width: 700px;
+    left: 50px;
+}
+/*Posicionamento e estilo do TITULO*/
+section#inicio div#texto1 div#titulo {
+
+    /*Estilos*/
+    font-size: 40px;
+
+    /*Posicionamento e tamanho*/
+    width: 650px;
+}
+/*Posicionamento e estilo do PARAGRAFO*/
+section#inicio div#texto1 div#paragrafo {
+    
+    /*Estilos*/
+    font-size: 15px;
+    color: #737373;
+
+    /*Posicionamento e tamanho*/
+    position: relative;
+    top: 35px;
+}
+/*- Estilo e posicionamento gerais dos botoes -*/
+section#inicio div#botoes {
+
+    /*Posicionamento e tamanho*/
+    position: relative;
+    bottom: 10px;
+    left: 50px;
+    width: 570px;
+}
+/*- Estilo e posicionamento do botão 1 -*/
+section#inicio div#botoes button {
+    
+    /*Estilos*/
+    background-color: #BF0436;
+    color: #FFF;
+
+    /*Bordas*/
+    border-radius: 10px;
+    border: none;
+
+    /*Posicionamento e tamanho*/
+    width: 300px;
+    height: 35px;
+}
+/*- EFEITO no Botão 1 -*/
+section#inicio div#botoes button:hover {
+    background-color: #591E3A;
+}
+/*- Estilo e posicionamento do botão 2 -*/
+section#inicio div#botoes button#botao2 {
+    
+    /*Estilos*/
+    background-color: black;
+
+    /*Bordas*/
+    border: solid 1px #FFF;
+    
+    /*Posicionamento e tamanho*/
+    position: relative;
+    left: 10px;
+    width: 250px;
+    height: 30px;
+}
+
+@media screen {
+
+}
