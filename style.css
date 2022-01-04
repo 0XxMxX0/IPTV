@@ -1,7 +1,11 @@
 * {
-    padding: 0px;
-    margin: 0px;
+ 
+    /*Estilos*/ 
     font-family:Arial, Helvetica, sans-serif;
+
+    /*Posicionamento e tamanho*/
+    margin: 0px;
+    padding: 0px;
 }
 
 /*-- BARRA DE MENU --*/
@@ -43,12 +47,14 @@ nav#menus ul li a:hover {
 /*- Posicionamento e estilo da LOGO -*/
 nav#menus div#logo img {
 
+    /*Estilos*/
+    background-color: red;
+
     /*Posicionamento e tamanho*/
     position: relative;
     bottom: 70px;
     left: 50px;
     width: 250px;
-
 }
 /*-----------------------------------------------*/
 
@@ -73,7 +79,7 @@ section#inicio div#texto1 {
     
     /*Posicionamento e tamanho*/
     position: relative;
-    bottom: 80px;
+    bottom: 70px;
     width: 700px;
     left: 50px;
 }
@@ -90,19 +96,19 @@ section#inicio div#texto1 div#titulo {
 section#inicio div#texto1 div#paragrafo {
     
     /*Estilos*/
-    font-size: 15px;
+    font-size: 16px;
     color: #737373;
 
     /*Posicionamento e tamanho*/
     position: relative;
-    top: 35px;
+    top: 20px;
 }
 /*- Estilo e posicionamento gerais dos botoes -*/
 section#inicio div#botoes {
 
     /*Posicionamento e tamanho*/
     position: relative;
-    bottom: 10px;
+    bottom: 20px;
     left: 50px;
     width: 570px;
 }
