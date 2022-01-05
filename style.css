@@ -228,7 +228,7 @@ section#sobre div#texto2 div#paragrafo2 {
 }
 
 
-@media (max-width: 700px ) {
+@media (max-width: 1000px ) {
 
 /*-- BARRA DE MENU --*/
 nav#menus ul {
