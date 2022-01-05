@@ -48,7 +48,6 @@ nav#menus ul li a:hover {
 nav#menus div#logo img {
 
     /*Estilos*/
-    background-color: red;
 
     /*Posicionamento e tamanho*/
     position: relative;
@@ -226,4 +225,155 @@ section#sobre div#texto2 div#paragrafo2 {
     width: 400px;
 
 
+}
+
+
+@media (max-width: 700px ) {
+
+/*-- BARRA DE MENU --*/
+nav#menus ul {
+    
+    /*Estilos*/
+    /*Posicionamento e tamanho*/
+    position: relative;
+    bottom: 230px;
+    left: 240px;
+    height: 100%;
+    width: 300px;
+    
+/*Estilo geral dos links*/
+}nav#menus ul li {
+    
+    /*Estilos*/
+    list-style: none;
+    font-size: 13px;
+
+    /*Posicionamento e tamanho*/
+    position: relative;
+    top: 35%;
+    padding-left: 10px;
+    display: inline;
+        
+}nav#menus ul li a {
+    
+    /*Estilos*/
+    text-decoration: none;
+    color: #FFF;
+    margin-left: 20px;
+}
+section#inicio nav#menus div#logo  img{
+    left: 140px;
+    bottom: 5px;
+}
+
+
+/*-----------------------------------------------*/
+
+/*-- SEÇÃO INICIO --*/
+section#inicio {
+
+    /*Estilo*/
+    width: 565px;
+
+    background-image: none;
+
+}
+section#inicio div#texto1 {
+    
+    /*Estilo*/
+    background-color: red;
+    left: 30px;
+    width: 440px; 
+}
+section#inicio div#texto1 div#titulo {
+    width: 440px;
+    font-size: 30px;
+}
+section#inicio div#texto1 div#paragrafo {
+    width: 440px;
+}
+section#inicio div#botoes {
+
+    left: 30px;
+    width: 440px;
+}
+section#inicio div#botoes button {
+    width: 215px;
+}
+section#inicio div#botoes button#botao2 {
+    width: 215px;
+}
+
+/*-----------------------------------------------*/
+
+/*-- SEÇÃO SOBRE --*/
+section#sobre {
+    background-color: black;
+    z-index: -1;
+    width: 565px;
+}
+section#sobre div#fotos {
+
+    /*Estilos*/
+    background-color: black ;
+    box-shadow: 0px 10px black;
+    
+    /*Posicionamento e tamanho*/
+    position: relative;
+    z-index: 1;
+    left: 0px;
+    right: 500px;
+    bottom: 300px;
+    width: 510px;
+    height: 300px;
+}
+/*Estilos e posicionamento individual das fotos*/
+section#sobre div#fotos #d {
+
+    /*Estilo*/
+
+    /*Posicionamento e tamanho*/
+    position: relative;
+    bottom: 110px;
+    left: -65px;
+}
+section#sobre div#fotos #j {
+
+    /*Estilos*/
+
+    /*Posicionamento e tamanho*/
+    position: relative;
+    left: -180px;
+    top: 15px;
+}
+section#sobre div#fotos #s {
+
+    /*Estilos*/
+
+    /*Posicionamento e tamanho*/
+    position: relative;
+    padding: 10px;
+    left: -23px;
+    bottom: 90px;
+}
+/*Estilos e posicionamento dos textos*/
+section#sobre div#texto2 {
+    z-index: 2;
+    position: relative;
+    width: 200px;
+    left: 265px;
+    top: 88px;
+}
+/*Estilo do titulo*/
+section#sobre div#texto2 div#titulo2 {
+    color: #FFF;
+    font-size: 20px;
+    width: 300px;
+}
+/*Estilo do paragrafo*/
+section#sobre div#texto2 div#paragrafo2 {
+    color: #737373;
+    position: relative;
+    top: 10px;
+    width: 200px;
 }
